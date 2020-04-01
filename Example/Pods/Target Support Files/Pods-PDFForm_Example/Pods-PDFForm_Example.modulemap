@@ -1,0 +1,6 @@
+framework module Pods_PDFForm_Example {
+  umbrella header "Pods-PDFForm_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

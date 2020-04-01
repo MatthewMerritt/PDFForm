@@ -1,0 +1,23 @@
+{
+  "name": "PDFForm",
+  "version": "0.1.0",
+  "summary": "A short description of PDFForm.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MatthewMerritt/PDFForm",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MatthewMerritt": "matthew.merritt@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/MatthewMerritt/PDFForm.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PDFForm/Classes/**/*",
+  "resources": "PDFForm/Resources/**/*.{html}"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PDFForm (0.1.0)
+
+DEPENDENCIES:
+  - PDFForm (from `../`)
+
+EXTERNAL SOURCES:
+  PDFForm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PDFForm: 3ced3e3ee90aaff99b2a35f053a3263b73a3a04c
+
+PODFILE CHECKSUM: 1a4fee7a2052a2c00cced1cf408807f2bb770ec0
+
+COCOAPODS: 1.9.1
