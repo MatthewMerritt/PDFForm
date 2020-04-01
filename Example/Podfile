@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PDFForm_Example' do
+  pod 'PDFForm', :path => '../'
+
+  target 'PDFForm_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
