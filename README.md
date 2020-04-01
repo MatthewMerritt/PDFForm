@@ -2,7 +2,7 @@
 
 [![CI Status](https://img.shields.io/travis/MatthewMerritt/PDFForm.svg?style=flat)](https://travis-ci.org/MatthewMerritt/PDFForm)
 [![Version](https://img.shields.io/cocoapods/v/PDFForm.svg?style=flat)](https://cocoapods.org/pods/PDFForm)
-[![License](https://img.shields.io/cocoapods/l/PDFForm.svg?style=flat)](https://cocoapods.org/pods/PDFForm)
+[![License](https://img.shields.io/github/license/MatthewMerritt/PDFForm?style=flat)](https://cocoapods.org/pods/PDFForm)
 [![Platform](https://img.shields.io/cocoapods/p/PDFForm.svg?style=flat)](https://cocoapods.org/pods/PDFForm)
 
 ## Example
