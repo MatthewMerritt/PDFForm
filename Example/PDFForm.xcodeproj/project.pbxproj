@@ -232,10 +232,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2HC2T3EY4F;
 						LastSwiftMigration = 1140;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2HC2T3EY4F;
 						LastSwiftMigration = 1140;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -509,6 +511,7 @@
 			baseConfigurationReference = B2D868D8525196FAC60ACB58 /* Pods-PDFForm_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2HC2T3EY4F;
 				INFOPLIST_FILE = PDFForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -524,6 +527,7 @@
 			baseConfigurationReference = 4AA024054377253BF6F17A3C /* Pods-PDFForm_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2HC2T3EY4F;
 				INFOPLIST_FILE = PDFForm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -538,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F40D35D7C68F0B3EEACF63F2 /* Pods-PDFForm_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2HC2T3EY4F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -560,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DDBB663BDBD5D241777A31A /* Pods-PDFForm_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2HC2T3EY4F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -23,7 +23,7 @@ public class PDFPrintPageRenderer: UIPrintPageRenderer {
 
     public var showPagesOnFooter: PagesOnFooterSide = .none
 
-    public var headerFont: UIFont = UIFont(name: "AmericanTypewriter-Bold", size: 30.0)!
+    public var headerFont: UIFont = UIFont(name: "AmericanTypewriter-Bold", size: 28.0)!
     public var headerFontColor: UIColor = UIColor(red: 243.0/255, green: 82.0/255.0, blue: 30.0/255.0, alpha: 1.0)
 
     public var footerFont: UIFont = UIFont(name: "Noteworthy-Bold", size: 14.0)!

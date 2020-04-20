@@ -24,6 +24,7 @@ public class PDFViewController: UIViewController, WKNavigationDelegate {
     private var completionWithWebView: CompletionHandlerWithWebView?
     private var completionWithURL: CompletionHandlerWithURL?
 
+    public var pdfFilename: String = "Report.pdf"
     public var pdfTitle: String = "PDF Title"
     public var pdfFooter: String = "PDF Footer"
     public var pdfShowPagesOnFooter: PDFPrintPageRenderer.PagesOnFooterSide = .none
@@ -67,7 +68,7 @@ public class PDFViewController: UIViewController, WKNavigationDelegate {
     /// - Parameters:
     ///   - from: the string path of the HTML Template file
     ///   - completionHandler: the completion handler to recieve the URL
-    public func getPDFURL(from: String, completionHandler: CompletionHandlerWithURL? = nil) {
+    public func getPDFURL(from: String, filename: String = "Report.pdf", completionHandler: CompletionHandlerWithURL? = nil) {
 
         done = false
 
@@ -76,6 +77,7 @@ public class PDFViewController: UIViewController, WKNavigationDelegate {
 
         completionWithURL = completionHandler
 
+        pdfFilename = filename
         previewWebView.navigationDelegate = self
         previewWebView.loadHTMLString(from, baseURL: Bundle.main.bundleURL)
     }
@@ -107,7 +109,7 @@ public class PDFViewController: UIViewController, WKNavigationDelegate {
 
             // Send the URL to the file that has the generated PDF
             guard completionWithURL == nil else {
-                let url = PDF.createPDFFileAndReturnPath(using: self.previewWebView.viewPrintFormatter(), fileName: "PDFInvoice.pdf", pdfTitle: self.pdfTitle, pdfFooter: self.pdfFooter, showPagesOnFooter: self.pdfShowPagesOnFooter)
+                let url = PDF.createPDFFileAndReturnPath(using: self.previewWebView.viewPrintFormatter(), fileName: pdfFilename, pdfTitle: self.pdfTitle, pdfFooter: self.pdfFooter, showPagesOnFooter: self.pdfShowPagesOnFooter)
                 completionWithURL?(url)
                 return
             }
